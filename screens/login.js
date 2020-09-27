@@ -23,7 +23,7 @@ export default class Login extends React.Component {
     this.state = {
       password: "",
       Phone_Number: "",
-      Keyboard_alow:false,
+    
     };
   }
   set_Password = (text) => {
